@@ -26,7 +26,7 @@ A feature-rich CLI tool for managing Dovecot mail users with beautiful colored o
 ### 1. Clone and Configure
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/jelius-sama/mail-mgmt.git
 cd mail-mgmt
 ```
 
