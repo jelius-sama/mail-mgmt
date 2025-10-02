@@ -1,0 +1,10 @@
+{
+    "Version": "1.0.0",
+    "PasswdFile": "/etc/dovecot/passwd",
+    "VmailBaseDir": "/var/vmail",
+    "DovecotService": "dovecot",
+    "VmailUser": "vmail",
+    "VmailGroup": "mail",
+    "HashScheme": "SHA512-CRYPT",
+    "DoveadmCmd": "doveadm"
+}
