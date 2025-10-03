@@ -156,7 +156,7 @@ func main() {
 func printHelp() {
 	help := `
 ┌─────────────────────────────────────────────────────────────┐
-│          Mail User Management Tool v%s                   │
+│          Mail User Management Tool %-17s        │
 │          Manage Dovecot mail users with ease                │
 └─────────────────────────────────────────────────────────────┘
 
@@ -206,7 +206,7 @@ REQUIREMENTS:
     - Must be run as root (sudo)
     - Dovecot must be installed with doveadm
 `
-	fmt.Printf(help, Version, PasswdFile, VmailBaseDir, HashScheme)
+	fmt.Printf(help, "v"+Version, PasswdFile, VmailBaseDir, HashScheme)
 }
 
 func printVersion() {
